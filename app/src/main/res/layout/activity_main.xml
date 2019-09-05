@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/doodlehbd" />
+
+
+    <TextView
+        android:id="@+id/to_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To my beloved friend"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/welcome_text_view"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME 20TH"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/name_text_view"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Sitacho-"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+</RelativeLayout>
